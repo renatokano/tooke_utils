@@ -22,7 +22,34 @@ Or install it yourself as:
 
 ## Usage
 
-TODO
+- CPF:
+
+Generate a valid CPF:
+
+    $ cpf = TookeUtils::CPF.generate
+    
+Check if 'cpf' is valid:    
+    
+    $ TookeUtils::CPF.is_valid? cpf
+
+Apply a valid mask to cpf:
+    $ cpf = "12345678900"
+    $ TookeUtils::CPF.mask cpf
+
+- CNPJ:
+
+Generate a valid CNPJ:
+
+    $ cnpj = TookeUtils::CNPJ.generate
+
+Check if 'cnpj' is valid:
+
+    $ TookeUtils::CNPJ.is_valid? cnpj
+
+Apply a valid mask to cnpj:
+
+    $ cnpj = "41737186000143"
+    $ TookeUtils::CNPJ.mask cnpj  
 
 ## Future Implementations
 
