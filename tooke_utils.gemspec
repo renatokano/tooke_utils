@@ -2,6 +2,7 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "tooke_utils/version"
+
 name = "tooke_utils"
 
 Gem::Specification.new do |spec|
@@ -10,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Renato Kano"]
   spec.email         = ["renatokano16@gmail.com"]
 
-  spec.summary       = "Tooke Toolkit"
-  spec.description   = "CPF/CNPJ validators"
+  spec.summary       = "TookeUtils"
+  spec.description   = "In this version, this toolkit allows the generation, validation and formating of CPF's and CNPJ's. For now, the use is exclusive to Brazil."
   spec.homepage      = "https://github.com/renatokano/#{name}"
   spec.license       = "MIT"
 

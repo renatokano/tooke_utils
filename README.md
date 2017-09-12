@@ -1,4 +1,5 @@
-# TookeUtils  [![Build Status](https://travis-ci.org/renatokano/tooke_utils.svg?branch=master)](https://travis-ci.org/renatokano/tooke_utils)
+# TookeUtils    [![Build Status](https://travis-ci.org/renatokano/tooke_utils.svg?branch=master)](https://travis-ci.org/renatokano/tooke_utils)   [![Dependency Status](https://gemnasium.com/badges/github.com/renatokano/tooke_utils.svg)](https://gemnasium.com/github.com/renatokano/tooke_utils)
+
 
 Welcome to TookeUtils!
 
