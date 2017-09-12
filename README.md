@@ -1,4 +1,4 @@
-# Tooke Utils
+# TookeUtils
 
 Welcome to TookeUtils!
 
