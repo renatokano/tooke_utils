@@ -22,8 +22,6 @@ Or install it yourself as:
 
 ## Usage
 
-- CPF:
-
 Generate a valid CPF:
 
     $ cpf = TookeUtils::CPF.generate
@@ -38,8 +36,6 @@ Apply a valid mask to cpf:
 
     $ TookeUtils::CPF.mask cpf
 
-- CNPJ:
-
 Generate a valid CNPJ:
 
     $ cnpj = TookeUtils::CNPJ.generate
@@ -51,7 +47,7 @@ Check if 'cnpj' is valid:
 Apply a valid mask to cnpj:
 
     $ cnpj = "41737186000143"
-    
+
     $ TookeUtils::CNPJ.mask cnpj  
 
 ## Future Implementations
