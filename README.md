@@ -54,6 +54,7 @@ Apply a valid mask to cnpj:
 
 - ZipCode validation (Brazil)
 - Get 'Address', 'City' and 'State' using ZipCode (WebService)
+- GoogleMaps Integration (API)
 
 ## Contributing
 
