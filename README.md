@@ -33,7 +33,9 @@ Check if 'cpf' is valid:
     $ TookeUtils::CPF.is_valid? cpf
 
 Apply a valid mask to cpf:
+
     $ cpf = "12345678900"
+
     $ TookeUtils::CPF.mask cpf
 
 - CNPJ:
@@ -49,6 +51,7 @@ Check if 'cnpj' is valid:
 Apply a valid mask to cnpj:
 
     $ cnpj = "41737186000143"
+    
     $ TookeUtils::CNPJ.mask cnpj  
 
 ## Future Implementations
