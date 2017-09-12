@@ -2,7 +2,7 @@
 
 Welcome to TookeUtils!
 
-In this version, this toolkit allows the generation and validation of CPF's and CNPJ's. For now, the use is exclusive to Brazil.
+In this version, this toolkit allows the generation, validation and formating of CPF's and CNPJ's. For now, the use is exclusive to Brazil.
 
 ## Installation
 
@@ -24,31 +24,35 @@ Or install it yourself as:
 
 Generate a valid CPF:
 
-    $ cpf = TookeUtils::CPF.generate
+    $ cpf = TookeUtils::CPF.generate        # Generates a valid CPF like "267.573.018-14"
     
 Check if 'cpf' is valid:    
     
-    $ TookeUtils::CPF.is_valid? cpf
+    $ cpf = "267.573.018-14"                
+
+    $ TookeUtils::CPF.is_valid? cpf         # True
 
 Apply a valid mask to cpf:
 
-    $ cpf = "12345678900"
+    $ cpf = "26757301814"                   
 
-    $ TookeUtils::CPF.mask cpf
+    $ TookeUtils::CPF.mask cpf              # Results in "267.573.018-14"
 
 Generate a valid CNPJ:
 
-    $ cnpj = TookeUtils::CNPJ.generate
+    $ cnpj = TookeUtils::CNPJ.generate      # Generates a valid CNPJ like "41.737.186/0001-43"
 
 Check if 'cnpj' is valid:
 
-    $ TookeUtils::CNPJ.is_valid? cnpj
+    $ cnpj = "41737186000143"               
+
+    $ TookeUtils::CNPJ.is_valid? cnpj       # True
 
 Apply a valid mask to cnpj:
 
-    $ cnpj = "41737186000143"
+    $ cnpj = "41737186000143"               
 
-    $ TookeUtils::CNPJ.mask cnpj  
+    $ TookeUtils::CNPJ.mask cnpj            # Results in "41.737.186/0001-43"
 
 ## Future Implementations
 
