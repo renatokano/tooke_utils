@@ -1,4 +1,4 @@
-# TookeUtils
+# TookeUtils  [![Build Status](https://travis-ci.org/renatokano/tooke_utils.svg?branch=master)](https://travis-ci.org/renatokano/tooke_utils)
 
 Welcome to TookeUtils!
 
