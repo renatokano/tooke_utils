@@ -1,5 +1,5 @@
 # TookeUtils    
-[![Build Status](https://travis-ci.org/renatokano/tooke_utils.svg?branch=master)](https://travis-ci.org/renatokano/tooke_utils)   [![Gem Version](https://badge.fury.io/rb/tooke_utils.svg)](https://badge.fury.io/rb/tooke_utils)
+[![Build Status](https://travis-ci.org/renatokano/tooke_utils.svg?branch=master)](https://travis-ci.org/renatokano/tooke_utils)   [![Gem Version](https://badge.fury.io/rb/tooke_utils.svg)](https://badge.fury.io/rb/tooke_utils)   ![Gem](https://img.shields.io/gem/dt/tooke_utils)   
 
 Welcome to TookeUtils!
 
